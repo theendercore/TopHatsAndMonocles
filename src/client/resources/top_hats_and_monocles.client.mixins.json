@@ -4,7 +4,7 @@
   "package": "com.theendercore.top_hats_and_monocles.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "ExampleMixin"
+    "AvatarRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

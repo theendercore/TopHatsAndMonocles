@@ -53,7 +53,7 @@ dependencies {
     modImplementation(libs.bundles.cw)
 }
 
-val username = "vDev"
+val username = "TheEnderCore"
 val uuid = iridium.fetchUUID(username) // Dev & vDev will always be null
 
 loom {

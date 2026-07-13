@@ -9,6 +9,14 @@ import net.minecraft.resources.ResourceKey
 import net.minecraft.resources.Identifier
 import net.minecraft.tags.TagKey
 import com.theendercore.top_hats_and_monocles.TopHatsAndMonocles.MODID
+import net.minecraft.world.entity.Avatar
+
+
+const val ENDER_UUID = "022e8cd8-4ecf-4416-b0e8-3bfba11498f0"
+
+fun isEnder(player: Avatar): Boolean {
+    return (player.getUUID().toString() == ENDER_UUID)
+}
 
 
 fun isDev() = FabricLoader.getInstance().isDevelopmentEnvironment

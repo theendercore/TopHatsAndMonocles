@@ -1,12 +1,10 @@
 package com.theendercore.top_hats_and_monocles
 
-import me.fzzyhmstrs.fzzy_config.api.ConfigApi
+import com.theendercore.top_hats_and_monocles.init.TnMBlocks
+import com.theendercore.top_hats_and_monocles.init.TnMItems
 import net.minecraft.resources.Identifier
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
-import com.theendercore.top_hats_and_monocles.config.TopHatsAndMonoclesConfig
-import com.theendercore.top_hats_and_monocles.init.TnMBlocks
-import com.theendercore.top_hats_and_monocles.init.TnMItems
 
 object TopHatsAndMonocles {
 
@@ -15,11 +13,11 @@ object TopHatsAndMonocles {
     @JvmField
     val log: Logger = LoggerFactory.getLogger(TopHatsAndMonocles::class.simpleName)
 
-    @JvmField
-    var config = ConfigApi.registerAndLoadConfig(::TopHatsAndMonoclesConfig)
+//    @JvmField
+//    var config = ConfigApi.registerAndLoadConfig(::TopHatsAndMonoclesConfig)
 
     fun init() {
-        log.info("Hello from Common ${config.commonEntry.get()}")
+        log.info("A hat on top?")
         TnMItems.init()
         TnMBlocks.init()
     }
