@@ -7,9 +7,11 @@
     "fabric-datagen": [
       {
         "adapter": "kotlin",
-        "value": "org.teamvoided.template.datagen.TemplateData"
+        "value": "com.theendercore.top_hats_and_monocles.datagen.TopHatsAndMonoclesData"
       }
     ]
   },
-  "mixins": [ "template.datagen.mixins.json" ]
+  "mixins": [
+    "top_hats_and_monocles.datagen.mixins.json"
+  ]
 }
