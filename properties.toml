@@ -1,8 +1,8 @@
 mod_name = "Top Hats and Monocles"
 mod_id = "top_hats_and_monocles"
-mod_group = "org.teamvoided"
-mod_version = "1.0.0"
-mod_description = "Hats and ppl, Hats!"
+mod_group = "com.theendercore"
+mod_version = "0.1.0"
+mod_description = "Hats, People, Hats!"
 github_repo = "Teamvoided/TopHatsAndMonocles"
 discord_invite = "https://discord.gg/KZ5Q364hEg"
 authors = [ "TheEnderCore" ]
